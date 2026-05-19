@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SOKI Transport</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<div class="container">
+  <div class="card">
+    <h1>SOKI Transport</h1>
+    <p class="subtitle">Réservez vos billets facilement</p>
+    <div class="trajet">
+      <h2>Brazzaville → Pointe-Noire</h2>
+      <p>Départ : 06:00 • Durée : 8h</p>
+      <div class="prix">8 000 FCFA</div>
+      <button onclick="reserver()">
+        Réserver maintenant
+      </button>
+    </div>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
